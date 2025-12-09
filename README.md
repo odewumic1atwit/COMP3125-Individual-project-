@@ -44,20 +44,25 @@ project/
 - Top 20 universities  
 
 ## Installation
-1. Clone the repository
+
+Clone the repository:
+```bash
 git clone <repo-url>
 cd qs-ranking-project
+Create a virtual environment:
 
-2. Create and activate a virtual environment
 bash
 python -m venv .venv
-.venv\Scripts\activate // Windows
+Activate the environment:
+
+bash
+# Windows
+.venv\Scripts\activate
+
 # macOS/Linux
-bash
-python -m venv .venv
 source .venv/bin/activate
+Install dependencies:
 
-3. Install dependencies
 bash
 pip install pandas numpy seaborn matplotlib scikit-learn
 
