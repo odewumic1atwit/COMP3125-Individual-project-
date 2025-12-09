@@ -45,30 +45,32 @@ project/
 
 ## Installation
 
----
-
 ### 1. Clone the repository:
 
+1. Clone the repository:
 ```bash
 git clone <repo-url>
 cd qs-ranking-project
+```
 2. Create a virtual environment:
-bash
+```bash
 python -m venv .venv
 .venv\Scripts\activate      # Windows
 source .venv/bin/activate   # macOS/Linux
+```
 3. Install dependencies:
-bash
+```bash
 pip install pandas numpy seaborn matplotlib scikit-learn
+```
 
-Usage
+##Usage
 1. Clean the dataset
 python src/data_munging.py
 
 2. Generate visualizations and summaries
 python src/data_analysis.py
 
-3. (Optional) Run the full pipeline
+3.  Run the full pipeline
 python src/main.py
 
 
