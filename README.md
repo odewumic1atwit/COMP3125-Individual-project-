@@ -78,10 +78,10 @@ python src/main.py
 ## Insights
 The analysis explores:
 
-•Relationships between academic quality, research output, and ranking
-•Sustainability performance across institutions
-•Patterns among top-ranked universities
-•Rankings changes from 2024 to 2025
+- Relationships between academic quality, research output, and ranking
+- Sustainability performance across institutions
+- Patterns among top-ranked universities
+- Rankings changes from 2024 to 2025
 
 ## Technologies
 - Python 
