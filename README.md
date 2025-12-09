@@ -20,7 +20,7 @@ project/
 ├── src/
 │ ├── data_munging.py # Cleans and scales dataset
 │ ├── data_analysis.py # Visualizations + summary statistics
-│ └── main.py # Optional pipeline runner
+│ └── main.py # Pipeline runner
 │
 ├── datasets/
 │ ├── qs_world_rankings_2025.csv # Raw dataset
