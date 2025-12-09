@@ -63,7 +63,7 @@ source .venv/bin/activate   # macOS/Linux
 pip install pandas numpy seaborn matplotlib scikit-learn
 ```
 
-##Usage
+## Usage
 1. Clean the dataset
 python src/data_munging.py
 
@@ -74,7 +74,7 @@ python src/data_analysis.py
 python src/main.py
 
 
-##Insights
+## Insights
 The analysis explores:
 
 •Relationships between academic quality, research output, and ranking
