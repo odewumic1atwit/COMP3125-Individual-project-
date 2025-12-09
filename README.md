@@ -72,7 +72,7 @@ python src/data_analysis.py
 python src/main.py
 
 
-Insights
+##Insights
 The analysis explores:
 
 •Relationships between academic quality, research output, and ranking
