@@ -1,0 +1,77 @@
+# QS World University Rankings 2025 – Data Analysis
+
+A Python-based data analysis project exploring global university performance using the QS 2025 rankings dataset.
+
+## Overview
+This project loads, cleans, and analyzes the QS World University Rankings 2025 dataset. It performs data munging, feature scaling, descriptive statistics, and visualizations to understand how universities compare across academic reputation, employer reputation, research strength, sustainability, and overall ranking.
+
+## Dataset
+- **Source:** `datasets/qs_world_rankings_2025.csv`
+- **Universities:** ~1,503
+- **Key Features:** Academic reputation, employer reputation, citations per faculty, sustainability, faculty/student ratio, internationalization metrics, and QS overall score.
+
+### Data Outputs
+- `qs_data_cleaned.csv` — cleaned + scaled dataset (ready for analysis)
+- Plots saved in `plots/`
+
+## Project Structure
+src/
+├── data_munging.py # Cleans and scales dataset
+├── data_analysis.py # Visualizations + summary statistics
+└── main.py # Optional pipeline runner
+
+datasets/ # Raw + cleaned data
+plots/ # Generated charts
+
+
+## Features
+
+### Data Cleaning & Engineering
+- Standardized column names  
+- Converted numeric fields  
+- Median imputation of missing values  
+- Added MinMax-scaled versions of numeric metrics  
+
+### Analysis Outputs
+- Correlation heatmap  
+- QS score distribution  
+- Academic vs employer reputation  
+- Sustainability vs QS score  
+- Top 20 universities  
+
+## Installation
+```bash
+git clone <repo-url>
+cd qs-ranking-project
+python -m venv .venv
+.venv\Scripts\activate        # Windows
+pip install pandas numpy seaborn matplotlib scikit-learn
+Usage
+1. Clean the dataset
+bash
+Copy code
+python src/data_munging.py
+2. Run analysis + generate plots
+bash
+Copy code
+python src/data_analysis.py
+3. (Optional) Run full pipeline
+bash
+Copy code
+python src/main.py
+Insights
+The analysis explores:
+
+Relationships between academic quality, research output, and ranking
+
+Sustainability performance across institutions
+
+Patterns among top-ranked universities
+
+Rankings changes from 2024 to 2025
+
+Technologies
+Python • Pandas • NumPy • Scikit-learn • Seaborn • Matplotlib
+
+Author
+Chrisantus Odewumi
