@@ -83,7 +83,7 @@ The analysis explores:
 •Patterns among top-ranked universities
 •Rankings changes from 2024 to 2025
 
-Technologies
+##Technologies
 - Python 
 - Pandas 
 - NumPy
