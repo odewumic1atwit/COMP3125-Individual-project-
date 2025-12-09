@@ -44,8 +44,7 @@ project/
 - Top 20 universities  
 
 ## Installation
-###1. Clone the repository
-```bash
+1. Clone the repository
 git clone <repo-url>
 cd qs-ranking-project
 
