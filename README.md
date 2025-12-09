@@ -44,38 +44,47 @@ project/
 - Top 20 universities  
 
 ## Installation
-```bash
+1. Clone the repository
 git clone <repo-url>
 cd qs-ranking-project
+
+2. Create and activate a virtual environment
+# Windows
 python -m venv .venv
-.venv\Scripts\activate        # Windows
+.venv\Scripts\activate
+# macOS/Linux
+python -m venv .venv
+source .venv/bin/activate
+
+3. Install dependencies
 pip install pandas numpy seaborn matplotlib scikit-learn
+
 Usage
 1. Clean the dataset
-bash
-Copy code
 python src/data_munging.py
-2. Run analysis + generate plots
-bash
-Copy code
+
+2. Generate visualizations and summaries
 python src/data_analysis.py
-3. (Optional) Run full pipeline
-bash
-Copy code
+
+3. (Optional) Run the full pipeline
 python src/main.py
+
+
 Insights
 The analysis explores:
 
-Relationships between academic quality, research output, and ranking
-
-Sustainability performance across institutions
-
-Patterns among top-ranked universities
-
-Rankings changes from 2024 to 2025
+•Relationships between academic quality, research output, and ranking
+•Sustainability performance across institutions
+•Patterns among top-ranked universities
+•Rankings changes from 2024 to 2025
 
 Technologies
-Python • Pandas • NumPy • Scikit-learn • Seaborn • Matplotlib
+•Python
+•Pandas
+•NumPy
+•Scikit-learn
+•Seaborn
+•Matplotlib
 
 Author
 Chrisantus Odewumi
