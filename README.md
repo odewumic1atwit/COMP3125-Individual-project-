@@ -49,10 +49,9 @@ git clone <repo-url>
 cd qs-ranking-project
 
 2. Create and activate a virtual environment
-# Windows
 bash
 python -m venv .venv
-.venv\Scripts\activate
+.venv\Scripts\activate // Windows
 # macOS/Linux
 bash
 python -m venv .venv
