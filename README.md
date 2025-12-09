@@ -84,12 +84,12 @@ The analysis explores:
 •Rankings changes from 2024 to 2025
 
 Technologies
-•Python
-•Pandas
-•NumPy
-•Scikit-learn
-•Seaborn
-•Matplotlib
+- Python 
+- Pandas 
+- NumPy
+- Scikit-learn
+- Seaborn 
+- Matplotlib 
 
 Author
 Chrisantus Odewumi
