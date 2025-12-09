@@ -15,6 +15,7 @@ This project loads, cleans, and analyzes the QS World University Rankings 2025 d
 - Plots saved in `plots/`
 
 ## Project Structure
+```
 project/
 ├── src/
 │ ├── data_munging.py # Cleans and scales dataset
@@ -26,7 +27,7 @@ project/
 │ └── qs_data_cleaned.csv # Cleaned dataset
 │
 └── plots/ # Generated charts
-
+```
 
 ## Features
 
